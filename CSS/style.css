@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********* html font **************/
+html{
+    font-family: sans-serif;
+}
+
+
+/********* header **********/
+header{
+    text-align: center;
+}
+
+
+/******** section search ***********/
+.search{
+    width: 1280px;
+    height: auto;
+    background-color: #f0f1f5;
+    margin: 0 auto;
+   
+}
+
+.container{
+text-align: center;
+padding-top: 10px;
+}
+
+.input{
+    letter-spacing: 1px;
+}
+
+/******** Artcile ***********/
+
+
+/* Article Container */
+.article-container{
+    margin: 0 auto;
+    width: 1280px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+}
+
+/* Article container elements - start */
+.article-div1{
+    width: 440px;
+    background-color: rgb(84, 243, 243);
+    text-align: center;
+    margin-right: 2px;
+    font-weight:bold ;
+}
+
+.article-div2{
+    width: 280px;
+    background-color: rgb(76, 222, 222);
+    text-align: center;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.article-div3{
+    width: 560px;
+    background-color: rgb(78, 208, 208);
+    text-align: center;
+    margin-left: 2px;
+    font-size: 12px;
+}
+
+/* Artticle list - style */
+.list-type{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+
+/* Article container elements - End */
+
+/* footer */
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
